@@ -367,7 +367,7 @@ button:focus {
 
 .project__title:after {
     content: '';
-    display:block;
+    display: block;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -375,4 +375,38 @@ button:focus {
     width: 50px;
     height: 2px;
     background-color: var(--color-accent);
+}
+
+/* testmonial */
+.testimonials {
+   margin: 3rem; 
+}
+
+.testmonial {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.testmonial:nth-child(even) .testmonial__img {
+    order: 1;
+}
+.testmonial__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
+}
+
+.testmonials__bubble {
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
+}
+
+.testmonials__bubble__name {
+    color: var(--color-accent);
+    font-weight: bold;
+    filter: brightness(70%);
 }
