@@ -429,6 +429,7 @@ button:focus {
     border-radius: 100%;
     text-align: center;
     box-shadow: 5px 5px 0px 0px var(--color-accent);
+    transition: opacity 300ms ease-in;
 }
 
 /* footer */
@@ -482,7 +483,7 @@ button:focus {
         width: 100%;
     }
 
-    #Home {
+    #home {
         padding-bottom: 3rem;
     }
 
