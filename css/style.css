@@ -125,7 +125,7 @@ button:focus {
 }
 
 /*home*/
-#Home {
+#home {
     background-color: var(--color-primary);
     color: var(--color-text);
     padding: 5rem 1rem;
@@ -225,7 +225,7 @@ button:focus {
 }
 
 /* skills */
-#Skills {
+#skills {
     background-color: var(--color-primary-variant);
     color: var(--color-text);
 }
